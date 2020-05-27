@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name" translatable="false">EcoleEnLigne</string>
+    <string name="app_learn" translatable="false">Learn from home!</string>
+    <string name="login_welcome" translatable="false">Hello there, Welcome Back</string>
+
+    <string name="navigation_menu" translatable="false">Menu</string>
+    <string name="navigation_menu_home" translatable="false">Home</string>
+    <string name="navigation_menu_dashboard" translatable="false">Dashboard</string>
+    <string name="navigation_menu_courses" translatable="false">Courses</string>
+    <string name="navigation_menu_evaluation" translatable="false">Evaluation</string>
+    <string name="navigation_menu_login" translatable="false">Sign in</string>
+    <string name="navigation_menu_logout" translatable="false">Logout</string>
+    <string name="navigation_menu_profile" translatable="false">Profile</string>
+    <string name="navigation_menu_communicate" translatable="false">Communicate</string>
+    <string name="navigation_menu_share" translatable="false">Share</string>
+    <string name="navigation_darawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_darawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="login_continue">Sign in to continue</string>
+    <string name="login_signin">Sign in</string>
+    <string name="login_username" translatable="false">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_username_valid" translatable="false">Username cannot be empty</string>
+    <string name="login_username_valid_toolong" translatable="false">Username too long</string>
+    <string name="login_username_valid_space" translatable="false">White Spaces are not allowed</string>
+    <string name="login_password_valid" translatable="false">Password cannot be empty</string>
+    <string name="login_password_valid_weak" translatable="false">Password is too weak </string>
+    <string name="login_forget">Forget Password?</string>
+    <string name="login_forget_title">Recover password</string>
+    <string name="login_forget_message">To recover the password, please enter your email address.</string>
+    <string name="login_forget_send">Send password</string>
+    <string name="login_forget_send_ok">Your password has been successfully sent to your email</string>
+    <string name="login_forget_email_notfoud">That email does not exist, Try another</string>
+    <string name="login_singup">Sign up</string>
+    <string name="login_success">You are successfully connected</string>
+    <string name="login_failed">incorrect login or password. Try again!</string>
+    <string name="logout_success">You are successfully logged out</string>
+
+
+    <string name="register">Register</string>
+    <string name="register_login_validat_empty">Login connot be empty</string>
+    <string name="register_password_validat_empty">Password connot be empty</string>
+    <string name="register_password_validat_regex"> Password must contain minimum 4 characters at least 1 Alphabet, 1 Number and 1 Special Character</string>
+    <string name="register_firstname">First Name</string>
+    <string name="register_firstname_validat_empty">First name cannot be empty</string>
+    <string name="register_lastname">Last Name</string>
+    <string name="register_lastname_validat_empty">Last name cannot be empty</string>
+    <string name="register_email">Email</string>
+    <string name="register_email_validat_empty">Email cannot be empty</string>
+    <string name="register_email_validat_invalid">Invalid email address</string>
+    <string name="register_facebook">Facebook Account</string>
+    <string name="register_facebook_validat_empty">Facebook account cannot be empty</string>
+    <string name="register_tweeter">Tweeter Account</string>
+    <string name="register_tweeter_validat_empty">Tweeter account cannot be empty</string>
+    <string name="register_alreadyHaveAccount">Already have an account? Login </string>
+    <string name="register_user_alreadyexist">Username or email is taken. Try another. </string>
+    <string name="register_success">You are account is successfully created. Please open your email inbox and activate your account </string>
+    <string name="register_welcome" translatable="false">Welcome you!</string>
+
+
+    <string name="student_add_msg">To add new student, please type the following information</string>
+    <string name="student_firstname">Firstname</string>
+    <string name="student_lastname">Lastname</string>
+    <string name="student_parent">Parent</string>
+    <string name="student_parent_mother">Mother</string>
+    <string name="student_parent_father">Father</string>
+    <string name="student_parent_other">Autre</string>
+    <string name="student_level">Level</string>
+    <string name="save">Save</string>
+
+
+    <string name="server_restful_error">Server connexion error</string>
+
+
+    <string-array name="planets_array">
+        <item>Cours préparatoire (CP)</item>
+        <item>Cours élémentaire première année (CE1)</item>
+        <item>Cours élémentaire deuxième année (CE2)</item>
+        <item>Cours moyen première année (CM1)</item>
+        <item>Cours moyen deuxième année (CM2) </item>
+        <item>La sixième (6e)</item>
+        <item>La cinquème (5e)</item>
+        <item>La quatrième (4e)</item>
+        <item>La troisième (3e)</item>
+        <item>Bac</item>
+    </string-array>
+
+
+</resources>

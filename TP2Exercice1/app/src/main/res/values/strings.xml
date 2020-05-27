@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP2Exercice1</string>
+    <string name="nom">Last Name:</string>
+    <string name="prenom">First Name:</string>
+    <string name="tel">Phone: </string>
+    <string name="valider">Validate</string>
+</resources>

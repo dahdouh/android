@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ecoleenligne">
+    <!-- webservice config -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mlearning"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mlearning"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SynchronisationActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RecommendationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PdfCourseActivity" />
+        <activity android:name=".CoursActivity" />
+        <activity android:name=".ContentActivity" />
+        <activity android:name=".test" />
+        <activity android:name=".ListeCoursActivity" />
+        <activity android:name=".TypeCoursActivity" />
+        <activity android:name=".VideoCourseActivity" />
+        <activity android:name=".VideoContentActivity" />
+        <activity android:name=".ChoixCourorExoActivity" />
+        <activity android:name=".CourseProgressActivity" />
+        <activity android:name=".ExerciceProgressActivity" />
+        <activity android:name=".ListeQuestionsActivity" />
+        <activity android:name=".ListeCoursProgressActivity" />
+        <activity android:name=".ChoixCourorExoProgressActivity" />
+        <activity android:name=".ListeExercicesActivity" />
+        <activity android:name=".DashboardParentActivity" />
+        <activity android:name=".PassowordForgetActivity" />
+        <activity android:name=".StudentAddActivity" />
+        <activity android:name=".WelcomeActivationActivity" />
+        <activity android:name=".EvaluationActivity" />
+        <activity android:name=".StudentUpdateActivity" />
+        <activity android:name=".StudentDetailActivity" />
+        <activity android:name=".StudentRegisterActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".ProfileUpdateActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfileChooseActivity" /> <!-- webservice config -->
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

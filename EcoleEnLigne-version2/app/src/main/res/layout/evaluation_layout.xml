@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/rlc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10578E"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="250sp"
+        android:layout_height="120sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/border"
+        android:theme="@style/Platform.MaterialComponents" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200sp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/rep1"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300sp"
+        android:background="@drawable/border"
+
+        android:text="Button" />
+    <Button
+        android:id="@+id/rep2"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360sp"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+
+        android:text="Button" />
+    <Button
+        android:id="@+id/rep3"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420sp"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+
+        android:text="Button" />
+    <Button
+        android:id="@+id/rep4"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480sp"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+
+        android:text="Button" />
+
+</RelativeLayout>

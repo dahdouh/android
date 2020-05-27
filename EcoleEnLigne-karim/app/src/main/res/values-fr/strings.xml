@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoleEnLigne</string>
+    <string name="app_learn" translatable="false">Apprendre depuis chez vous!</string>
+    <string name="login_welcome" translatable="false">Bienvenue</string>
+
+    <string name="navigation_menu" translatable="false">Menu</string>
+    <string name="navigation_menu_home" translatable="false">Accueil</string>
+    <string name="navigation_menu_dashboard" translatable="false">Dashboard</string>
+    <string name="navigation_menu_courses" translatable="false">Cours</string>
+    <string name="navigation_menu_evaluation" translatable="false">Evaluation</string>
+    <string name="navigation_menu_login" translatable="false">Se connecter</string>
+    <string name="navigation_menu_logout" translatable="false">Se déconnecter</string>
+    <string name="navigation_menu_profile" translatable="false">Profil</string>
+    <string name="navigation_menu_communicate" translatable="false">Communiquer</string>
+    <string name="navigation_menu_share" translatable="false">Partager</string>
+    <string name="navigation_darawer_open" translatable="false">Ouvre la navigation</string>
+    <string name="navigation_darawer_close" translatable="false">Fermer la navigation</string>
+
+    <string name="login_continue" translatable="false">Connectez-vous pour continue</string>
+    <string name="login_signin">Se connecter</string>
+    <string name="login_username">Login</string>
+    <string name="login_password">Password</string>
+    <string name="login_username_valid" translatable="false">Le login ne peut pas être vide</string>
+    <string name="login_username_valid_toolong" translatable="false">Login trop long</string>
+    <string name="login_username_valid_space" translatable="false">Les espaces ne sont pas autorisés</string>
+    <string name="login_password_valid" translatable="false">Le mot de passe ne peut pas être vide</string>
+    <string name="login_password_valid_weak" translatable="false">Le mot de passe est trop faible</string>
+    <string name="login_forget"> mot de pass oublier?</string>
+    <string name="login_forget_title">Récupérer le mot de passe</string>
+    <string name="login_forget_message">Pour récupérer le mot de passe, veuillez saisir votre adresse e-mail.</string>
+    <string name="login_forget_send">Envoyer mot de passe</string>
+    <string name="login_forget_send_ok">Votre mot de passe a bien été envoyé à votre adresse e-mail</string>
+    <string name="login_forget_email_notfoud">Cet e-mail n\'existe pas, essayez-en un autre</string>
+    <string name="login_singup">S\'inscrire</string>
+    <string name="login_success">Vous êtes connecté avec succès</string>
+    <string name="login_failed">login ou mot de passe incorrect. Veuillez réessayer!</string>
+    <string name="logout_success">Vous êtes déconnecté avec succès</string>
+
+    <string name="register">S\'inscrire</string>
+    <string name="register_login_validat_empty">Login connot be empty</string>
+    <string name="register_password_validat_empty">Password connot be empty</string>
+    <string name="register_password_validat_regex"> Le mot de passe doit contenir au moins 4 caractères au moins 1 alphabet, 1 chiffre et 1 caractère spécial </string>
+    <string name="register_firstname">Prénom</string>
+    <string name="register_firstname_validat_empty">Prénom ne peut pas être vide</string>
+    <string name="register_lastname">Nom</string>
+    <string name="register_lastname_validat_empty">Nom ne peut pas être vide</string>
+    <string name="register_email">Email</string>
+    <string name="register_email_validat_empty">Email ne peyt pas être vide</string>
+    <string name="register_email_validat_invalid">Adresse email invalide</string>
+    <string name="register_facebook">Compte Facebook</string>
+    <string name="register_facebook_validat_empty">Facebook account cannot be empty</string>
+    <string name="register_tweeter">Compte Tweet</string>
+    <string name="register_tweeter_validat_empty">Tweeter account cannot be empty</string>
+    <string name="register_alreadyHaveAccount">Vous avez déjà un compte? S\'identifier</string>
+    <string name="register_user_alreadyexist">Le nom d\'utilisateur ou l\'email est déjà utilisé. Essaie un autre.</string>
+    <string name="register_success">Votre compte est créé avec succès. Veuillez ouvrir votre boîte de réception et activer votre compte</string>
+    <string name="register_welcome" translatable="false">Welcome you!</string>
+
+    <string name="student_add_msg">Pour ajouter un nouvel étudiant, veuillez entrer les informations suivantes</string>
+    <string name="student_firstname">Prénom</string>
+    <string name="student_lastname">Nom</string>
+    <string name="student_parent">Parent</string>
+    <string name="student_parent_mother">Mère</string>
+    <string name="student_parent_father">Père</string>
+    <string name="student_parent_other">Autre</string>
+    <string name="student_level">Niveau scolaire</string>
+    <string name="save">Enregistrer</string>
+
+
+    <string name="server_restful_error">Erreur de connexion au serveur</string>
+
+
+
+
+
+
+</resources>

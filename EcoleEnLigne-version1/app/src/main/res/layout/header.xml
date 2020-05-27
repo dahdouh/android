@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="140dp"
+        android:src="@drawable/mlearning"
+        android:layout_gravity="center"/>
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/navigation_menu"
+    android:textSize="18dp" />
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="www.ecoleenligne.com"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

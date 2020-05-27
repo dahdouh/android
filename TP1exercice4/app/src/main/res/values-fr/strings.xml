@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Internalisation version Fançaise </string>
+    <string name="nom">Nom:</string>
+    <string name="prenom"> Prénom :</string>
+    <string name="age">Age :</string>
+    <string name="domainecomp">Domaine de compétences :</string>
+    <string name="tel">Tél: </string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP2Exercice5</string>
+    <string name="nom">Nom: </string>
+    <string name="prenom">Prénom: :</string>
+    <string name="tel">Tél: </string>
+    <string name="valider">Valider</string>
+    <string name="retour">Précédent</string>
+    <string name="nom_service">Service de synchnonization de contacts</string>
+    <string name="synchroniser_btn">Synchronisations de contacts</string>
+</resources>
