@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:background="@drawable/bg_profile_blue"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!--
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:src="@drawable/mlearning"
+        android:layout_gravity="center"/>
+-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="-20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_photo"
+            android:src="@drawable/man"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFFFFFFF"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:elevation="5dp"
+            android:padding="0dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/app_name"
+            android:textSize="18sp"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/antic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_photo"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:textSize="14sp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:fontFamily="@font/antic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_alignTop="@id/app_name"
+            android:layout_toRightOf="@id/user_photo"/>
+
+
+
+    </RelativeLayout>
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/navigation_menu"
+    android:textSize="18dp" />
+    -->
+
+
+
+
+</LinearLayout>
