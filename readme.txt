@@ -1,3 +1,7 @@
+Auteurs:
+	Karim Dahdouh
+	Thierno Barry
+
 Projet UE HMIN205 : Programmation Mobile et Projet MySchool (Ecole en Ligne)
 
 ====================================
