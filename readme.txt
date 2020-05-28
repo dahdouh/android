@@ -1,6 +1,13 @@
 Auteurs:
 	Karim Dahdouh
 	Thierno Barry
+	
+==============================================================
+Vidéo youtube: https://www.youtube.com/watch?v=-2_LIqECv6w
+Rapport: https://github.com/dahdouh/android/blob/master/rapport-MySchool.pdf
+Présentation: https://github.com/dahdouh/android/blob/master/Pr%C3%A9sentation_Myschool.pdf
+APK: https://github.com/dahdouh/android/tree/master/APK
+===============================================================
 
 Projet UE HMIN205 : Programmation Mobile et Projet MySchool (Ecole en Ligne)
 
